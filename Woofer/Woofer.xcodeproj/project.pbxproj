@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BEE9D2207CBE4800CD36E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEE9D1207CBE4800CD36E6 /* AppDelegate.swift */; };
+		45BEE9D4207CBE4800CD36E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEE9D3207CBE4800CD36E6 /* ViewController.swift */; };
+		45BEE9D7207CBE4800CD36E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BEE9D5207CBE4800CD36E6 /* Main.storyboard */; };
+		45BEE9DA207CBE4800CD36E6 /* Woofer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45BEE9D8207CBE4800CD36E6 /* Woofer.xcdatamodeld */; };
+		45BEE9DC207CBE4900CD36E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BEE9DB207CBE4900CD36E6 /* Assets.xcassets */; };
+		45BEE9DF207CBE4900CD36E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BEE9DD207CBE4900CD36E6 /* LaunchScreen.storyboard */; };
+		45BEE9EA207CBE4900CD36E6 /* WooferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEE9E9207CBE4900CD36E6 /* WooferTests.swift */; };
+		45BEE9F5207CBE4900CD36E6 /* WooferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEE9F4207CBE4900CD36E6 /* WooferUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BEE9E6207CBE4900CD36E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BEE9C6207CBE4700CD36E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BEE9CD207CBE4800CD36E6;
+			remoteInfo = Woofer;
+		};
+		45BEE9F1207CBE4900CD36E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BEE9C6207CBE4700CD36E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BEE9CD207CBE4800CD36E6;
+			remoteInfo = Woofer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45BEE9CE207CBE4800CD36E6 /* Woofer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woofer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BEE9D1207CBE4800CD36E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45BEE9D3207CBE4800CD36E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45BEE9D6207CBE4800CD36E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BEE9D9207CBE4800CD36E6 /* Woofer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Woofer.xcdatamodel; sourceTree = "<group>"; };
+		45BEE9DB207CBE4900CD36E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BEE9DE207CBE4900CD36E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BEE9E0207CBE4900CD36E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BEE9E5207CBE4900CD36E6 /* WooferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BEE9E9207CBE4900CD36E6 /* WooferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooferTests.swift; sourceTree = "<group>"; };
+		45BEE9EB207CBE4900CD36E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BEE9F0207CBE4900CD36E6 /* WooferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WooferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BEE9F4207CBE4900CD36E6 /* WooferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooferUITests.swift; sourceTree = "<group>"; };
+		45BEE9F6207CBE4900CD36E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BEE9CB207CBE4800CD36E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9E2207CBE4900CD36E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9ED207CBE4900CD36E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BEE9C5207CBE4700CD36E6 = {
+			isa = PBXGroup;
+			children = (
+				45BEE9D0207CBE4800CD36E6 /* Woofer */,
+				45BEE9E8207CBE4900CD36E6 /* WooferTests */,
+				45BEE9F3207CBE4900CD36E6 /* WooferUITests */,
+				45BEE9CF207CBE4800CD36E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BEE9CF207CBE4800CD36E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BEE9CE207CBE4800CD36E6 /* Woofer.app */,
+				45BEE9E5207CBE4900CD36E6 /* WooferTests.xctest */,
+				45BEE9F0207CBE4900CD36E6 /* WooferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BEE9D0207CBE4800CD36E6 /* Woofer */ = {
+			isa = PBXGroup;
+			children = (
+				45BEE9D1207CBE4800CD36E6 /* AppDelegate.swift */,
+				45BEE9D3207CBE4800CD36E6 /* ViewController.swift */,
+				45BEE9D5207CBE4800CD36E6 /* Main.storyboard */,
+				45BEE9DB207CBE4900CD36E6 /* Assets.xcassets */,
+				45BEE9DD207CBE4900CD36E6 /* LaunchScreen.storyboard */,
+				45BEE9E0207CBE4900CD36E6 /* Info.plist */,
+				45BEE9D8207CBE4800CD36E6 /* Woofer.xcdatamodeld */,
+			);
+			path = Woofer;
+			sourceTree = "<group>";
+		};
+		45BEE9E8207CBE4900CD36E6 /* WooferTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BEE9E9207CBE4900CD36E6 /* WooferTests.swift */,
+				45BEE9EB207CBE4900CD36E6 /* Info.plist */,
+			);
+			path = WooferTests;
+			sourceTree = "<group>";
+		};
+		45BEE9F3207CBE4900CD36E6 /* WooferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BEE9F4207CBE4900CD36E6 /* WooferUITests.swift */,
+				45BEE9F6207CBE4900CD36E6 /* Info.plist */,
+			);
+			path = WooferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BEE9CD207CBE4800CD36E6 /* Woofer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BEE9F9207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "Woofer" */;
+			buildPhases = (
+				45BEE9CA207CBE4800CD36E6 /* Sources */,
+				45BEE9CB207CBE4800CD36E6 /* Frameworks */,
+				45BEE9CC207CBE4800CD36E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Woofer;
+			productName = Woofer;
+			productReference = 45BEE9CE207CBE4800CD36E6 /* Woofer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BEE9E4207CBE4900CD36E6 /* WooferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BEE9FC207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "WooferTests" */;
+			buildPhases = (
+				45BEE9E1207CBE4900CD36E6 /* Sources */,
+				45BEE9E2207CBE4900CD36E6 /* Frameworks */,
+				45BEE9E3207CBE4900CD36E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BEE9E7207CBE4900CD36E6 /* PBXTargetDependency */,
+			);
+			name = WooferTests;
+			productName = WooferTests;
+			productReference = 45BEE9E5207CBE4900CD36E6 /* WooferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BEE9EF207CBE4900CD36E6 /* WooferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BEE9FF207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "WooferUITests" */;
+			buildPhases = (
+				45BEE9EC207CBE4900CD36E6 /* Sources */,
+				45BEE9ED207CBE4900CD36E6 /* Frameworks */,
+				45BEE9EE207CBE4900CD36E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BEE9F2207CBE4900CD36E6 /* PBXTargetDependency */,
+			);
+			name = WooferUITests;
+			productName = WooferUITests;
+			productReference = 45BEE9F0207CBE4900CD36E6 /* WooferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BEE9C6207CBE4700CD36E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sandiam;
+				TargetAttributes = {
+					45BEE9CD207CBE4800CD36E6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					45BEE9E4207CBE4900CD36E6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 45BEE9CD207CBE4800CD36E6;
+					};
+					45BEE9EF207CBE4900CD36E6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 45BEE9CD207CBE4800CD36E6;
+					};
+				};
+			};
+			buildConfigurationList = 45BEE9C9207CBE4700CD36E6 /* Build configuration list for PBXProject "Woofer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BEE9C5207CBE4700CD36E6;
+			productRefGroup = 45BEE9CF207CBE4800CD36E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BEE9CD207CBE4800CD36E6 /* Woofer */,
+				45BEE9E4207CBE4900CD36E6 /* WooferTests */,
+				45BEE9EF207CBE4900CD36E6 /* WooferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BEE9CC207CBE4800CD36E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BEE9DF207CBE4900CD36E6 /* LaunchScreen.storyboard in Resources */,
+				45BEE9DC207CBE4900CD36E6 /* Assets.xcassets in Resources */,
+				45BEE9D7207CBE4800CD36E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9E3207CBE4900CD36E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9EE207CBE4900CD36E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BEE9CA207CBE4800CD36E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BEE9D4207CBE4800CD36E6 /* ViewController.swift in Sources */,
+				45BEE9D2207CBE4800CD36E6 /* AppDelegate.swift in Sources */,
+				45BEE9DA207CBE4800CD36E6 /* Woofer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9E1207CBE4900CD36E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BEE9EA207CBE4900CD36E6 /* WooferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BEE9EC207CBE4900CD36E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BEE9F5207CBE4900CD36E6 /* WooferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BEE9E7207CBE4900CD36E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BEE9CD207CBE4800CD36E6 /* Woofer */;
+			targetProxy = 45BEE9E6207CBE4900CD36E6 /* PBXContainerItemProxy */;
+		};
+		45BEE9F2207CBE4900CD36E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BEE9CD207CBE4800CD36E6 /* Woofer */;
+			targetProxy = 45BEE9F1207CBE4900CD36E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BEE9D5207CBE4800CD36E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BEE9D6207CBE4800CD36E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45BEE9DD207CBE4900CD36E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BEE9DE207CBE4900CD36E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BEE9F7207CBE4900CD36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45BEE9F8207CBE4900CD36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BEE9FA207CBE4900CD36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = Woofer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.Woofer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BEE9FB207CBE4900CD36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = Woofer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.Woofer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45BEE9FD207CBE4900CD36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = WooferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.WooferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woofer.app/Woofer";
+			};
+			name = Debug;
+		};
+		45BEE9FE207CBE4900CD36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = WooferTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.WooferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Woofer.app/Woofer";
+			};
+			name = Release;
+		};
+		45BEEA00207CBE4900CD36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = WooferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.WooferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Woofer;
+			};
+			name = Debug;
+		};
+		45BEEA01207CBE4900CD36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NPR47W7X8;
+				INFOPLIST_FILE = WooferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandiam.WooferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Woofer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BEE9C9207CBE4700CD36E6 /* Build configuration list for PBXProject "Woofer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BEE9F7207CBE4900CD36E6 /* Debug */,
+				45BEE9F8207CBE4900CD36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BEE9F9207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "Woofer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BEE9FA207CBE4900CD36E6 /* Debug */,
+				45BEE9FB207CBE4900CD36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BEE9FC207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "WooferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BEE9FD207CBE4900CD36E6 /* Debug */,
+				45BEE9FE207CBE4900CD36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BEE9FF207CBE4900CD36E6 /* Build configuration list for PBXNativeTarget "WooferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BEEA00207CBE4900CD36E6 /* Debug */,
+				45BEEA01207CBE4900CD36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45BEE9D8207CBE4800CD36E6 /* Woofer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45BEE9D9207CBE4800CD36E6 /* Woofer.xcdatamodel */,
+			);
+			currentVersion = 45BEE9D9207CBE4800CD36E6 /* Woofer.xcdatamodel */;
+			path = Woofer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45BEE9C6207CBE4700CD36E6 /* Project object */;
+}
